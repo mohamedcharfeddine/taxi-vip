@@ -11,7 +11,7 @@ const Services = () => {
 					<span className="text-2xl font-bold">Services</span>
 				</div>
 
-				<div className="grid mb-6 lg:mb-16 md:grid-cols-3 mx-12">
+				<div className="flex flex-col xl:flex-row justify-around xl:items-start gap-28 w-full">
 					<Service
 						imageUrl="/assets/service.png"
 						title="Lokale taxi diensten"

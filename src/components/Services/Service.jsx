@@ -6,7 +6,7 @@ const Service = ({ imageUrl, title, description, seeMoreUrl }) => {
 		<>
 			
 
-			<div className="text-center text-gray-500 dark:text-gray-400 flex flex-col justify-center items-center gap-4">
+			<div className="text-center text-gray-500 flex flex-col justify-between items-center gap-5 h-[550px]">
 				<Image
 					src={imageUrl}
 					alt={title}
@@ -14,7 +14,7 @@ const Service = ({ imageUrl, title, description, seeMoreUrl }) => {
 					width={350}
 					height={350}
 				/>
-				<div className="flex flex-col justify-center items-center gap-2">
+				<div className="flex flex-col justify-start items-center gap-2 h-16">
 					<h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 						<a href="#">{title}</a>
 					</h3>
@@ -22,7 +22,7 @@ const Service = ({ imageUrl, title, description, seeMoreUrl }) => {
 				</div>
 				<a
 					href={seeMoreUrl}
-					className="inline-flex justify-start items-center mt-4 py-2 px-8 text-xl font-medium text-center text-white rounded-lg bg-dark">
+					className="justify-center items-end mt-6 py-2 px-8 text-xl font-medium text-center text-white rounded-lg bg-dark">
 					See More
 				</a>
 			</div>
