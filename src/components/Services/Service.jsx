@@ -7,7 +7,7 @@ const Service = ({ imageUrl, title, description, seeMoreUrl }) => {
 			
 
 			<div className="text-center text-gray-500 flex flex-col justify-between items-center gap-5 h-[550px]">
-				<Image
+				<img
 					src={imageUrl}
 					alt={title}
 					// className="w-full h-auto"

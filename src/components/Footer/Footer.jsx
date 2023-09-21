@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="https://flowbite.com/" className="flex items-center">
-              <Image
+              <img
                 src="/assets/logo-footer.png"
                 className="h-[200px] mr-3 w-[200px]"
                 alt="FlowBite Logo"
@@ -123,7 +123,7 @@ export default Footer;
   /* <>
       <footer className="footer px-10 bg-black ">
         <div>
-          <Image
+          <img
             className="w-54"
             src="/assets/logo-footer.png"
             alt="Picture of the author"
