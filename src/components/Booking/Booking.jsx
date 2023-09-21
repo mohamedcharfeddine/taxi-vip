@@ -226,7 +226,7 @@ const Booking = () => {
             </button>
           </form>
 
-          <div className="relative flex xl:h-[500px] xl:w-[500px] w-[250px] h-[250px] xl:rounded-3xl rounded-xl bg-primary/50 justify-end before:absolute">
+          <div className="relative flex xl:h-[500px] xl:w-[500px] w-[250px] h-[250px] rounded-full bg-primary/50 justify-end before:absolute">
             <img
               className="z-10 xl:mr-6 -mt-5 mr-5 mb-5 "
               src="/assets/girl.png"
