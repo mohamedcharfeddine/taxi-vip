@@ -1,6 +1,5 @@
 import { SiGooglepodcasts } from "react-icons/si";
 import React from "react";
-import Image from "next/image";
 
 const About = () => {
 	return (

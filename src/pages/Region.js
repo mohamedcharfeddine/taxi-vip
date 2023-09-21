@@ -2,7 +2,7 @@ import React from 'react'
 
 const Region = () => {
   return (
-    <div className="mt-16">Region</div>
+    <div className="xl:mt-16 mt-20">Region</div>
   )
 }
 

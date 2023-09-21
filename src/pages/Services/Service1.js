@@ -2,7 +2,7 @@ import React from 'react'
 
 const Service1 = () => {
   return (
-    <div className="mt-16">Service 1</div>
+    <div className="xl:mt-16 mt-20">Service 1</div>
   )
 }
 
